@@ -13,9 +13,9 @@ public class ResearcherProject
 
   public async Task ExecuteAsync()
   {
-    var modelDeploymentName = "Gpt4v32k";
-    var azureOpenAIEndpoint = Environment.GetEnvironmentVariable("AZUREOPENAI_ENDPOINT");
-    var azureOpenAIApiKey = Environment.GetEnvironmentVariable("AZUREOPENAI_APIKEY");
+    var modelDeploymentName = "gpt-4";
+    var azureOpenAIEndpoint = Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT");
+    var azureOpenAIApiKey = Environment.GetEnvironmentVariable("AZURE_OPENAI_KEY");
     string bingApiKey = Environment.GetEnvironmentVariable("BING_APIKEY");
 
     var builder = Kernel.CreateBuilder();

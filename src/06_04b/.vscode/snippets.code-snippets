@@ -3,10 +3,10 @@
 		"scope": "csharp",
 		"prefix": "sk01",
 		"body": [
-			"\t\tvar modelDeploymentName = \"Gpt4v32k\";",
+			"\t\tvar modelDeploymentName = \"gpt-4\";",
 			"\t\tvar embeddingModelDeploymentName = \"ada-02-embedding\";",
-			"\t\tvar azureOpenAIEndpoint = Environment.GetEnvironmentVariable(\"AZUREOPENAI_ENDPOINT\");",
-			"\t\tvar azureOpenAIApiKey = Environment.GetEnvironmentVariable(\"AZUREOPENAI_APIKEY\");",
+			"\t\tvar azureOpenAIEndpoint = Environment.GetEnvironmentVariable(\"AZURE_OPENAI_ENDPOINT\");",
+			"\t\tvar azureOpenAIApiKey = Environment.GetEnvironmentVariable(\"AZURE_OPENAI_KEY\");",
 			"",
 			"#pragma warning disable SKEXP0011",
 			"#pragma warning disable SKEXP0003",
