@@ -18,9 +18,9 @@
   "AI service configuration": {
     "prefix": "sk01",
     "body": [
-      "var modelDeploymentName = \"Gpt4v32k\";",
-      "var azureOpenAIEndpoint = Environment.GetEnvironmentVariable(\"AZUREOPENAI_ENDPOINT\");",
-      "var azureOpenAIKey = Environment.GetEnvironmentVariable(\"AZUREOPENAI_APIKEY\");"
+      "var modelDeploymentName = \"gpt-4\";",
+      "var azureOpenAIEndpoint = Environment.GetEnvironmentVariable(\"AZURE_OPENAI_ENDPOINT\");",
+      "var azureOpenAIKey = Environment.GetEnvironmentVariable(\"AZURE_OPENAI_KEY\");"
     ],
     "description": "adds the configuration for the AI service"
   },

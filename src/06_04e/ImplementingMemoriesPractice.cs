@@ -11,10 +11,10 @@ public class ImplementingMemoriesPractice
 
   public static async Task Execute()
   {
-    var modelDeploymentName = "Gpt4v32k";
+    var modelDeploymentName = "gpt-4";
     var embeddingModelDeploymentName = "ada-02-embedding";
-    var azureOpenAIEndpoint = Environment.GetEnvironmentVariable("AZUREOPENAI_ENDPOINT");
-    var azureOpenAIApiKey = Environment.GetEnvironmentVariable("AZUREOPENAI_APIKEY");
+    var azureOpenAIEndpoint = Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT");
+    var azureOpenAIApiKey = Environment.GetEnvironmentVariable("AZURE_OPENAI_KEY");
 
 #pragma warning disable SKEXP0011
 #pragma warning disable SKEXP0003

@@ -16,26 +16,26 @@
 	// 	"description": "Log output to console"
 	// }
 	"AI service configuration": {
-	  "prefix": "sk01",
-	  "body": [
-		"var modelDeploymentName = \"Gpt4v32k\";",
-		"var azureOpenAIEndpoint = Environment.GetEnvironmentVariable(\"AZUREOPENAI_ENDPOINT\");",
-		"var azureOpenAIKey = Environment.GetEnvironmentVariable(\"AZUREOPENAI_APIKEY\");"
-	  ],
-	  "description": "adds the configuration for the AI service"
+		"prefix": "sk01",
+		"body": [
+			"var modelDeploymentName = \"gpt-4\";",
+			"var azureOpenAIEndpoint = Environment.GetEnvironmentVariable(\"AZURE_OPENAI_ENDPOINT\");",
+			"var azureOpenAIKey = Environment.GetEnvironmentVariable(\"AZURE_OPENAI_KEY\");"
+		],
+		"description": "adds the configuration for the AI service"
 	},
 	"sk02": {
-	  "scope": "csharp",
-	  "prefix": "sk02",
-	  "body": [
-		"var topic = \"The Semantic Kernel SDK has been born and is out to the world on December 19th, now all .NET developers are AI developers...\";"
-	  ]
+		"scope": "csharp",
+		"prefix": "sk02",
+		"body": [
+			"var topic = \"The Semantic Kernel SDK has been born and is out to the world on December 19th, now all .NET developers are AI developers...\";"
+		]
 	},
 	"sk03": {
-	  "scope": "csharp",
-	  "prefix": "sk03",
-	  "body": [
-		"var prompt = \\$\"Generate a very short funny poem about the given event. Be creative and be funny. Make the words ryhme together. Let your imagination run wild. Event:{topic}\";"
-	  ]
+		"scope": "csharp",
+		"prefix": "sk03",
+		"body": [
+			"var prompt = \\$\"Generate a very short funny poem about the given event. Be creative and be funny. Make the words ryhme together. Let your imagination run wild. Event:{topic}\";"
+		]
 	}
-  }
+}
